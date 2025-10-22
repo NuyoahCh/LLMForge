@@ -1,0 +1,5 @@
+{
+  "_type": "prompt",
+  "input_variables": ["name", "what"],
+  "template": "请{name}讲一个{what}的故事。"
+}
