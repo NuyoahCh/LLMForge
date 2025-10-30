@@ -26,6 +26,7 @@ LLMForge
 ├── 05FineTuning/               # 大模型微调的策略与实践
 ├── 06Project/                  # 行业项目案例与代码示例
 ├── docs/                       # 学习路线、路线图、架构与协作手册
+├── docs/                       # 学习路线、路线图与外部资源
 ├── CONTRIBUTING.md             # 贡献指南
 ├── CODE_OF_CONDUCT.md          # 社区行为准则
 └── LICENSE                     # MIT 开源许可证

@@ -6,6 +6,7 @@
 
 - [ ] **补全框架笔记**：完善 `02Framework/01-langchain` 的核心模块（LLM、Memory、Agent、Toolkits）。
 - [x] **RAG 实战脚本**：在 `03RAG/` 中新增基于向量数据库的最小示例，展示索引、检索、生成的完整流程。（已新增 `examples/minimal_rag_demo.py`）
+- [ ] **RAG 实战脚本**：在 `03RAG/` 中新增基于向量数据库的最小示例，展示索引、检索、生成的完整流程。
 - [ ] **医疗项目部署指南**：补充 `06Project/Medical` 的部署文档（Docker Compose、环境变量、测试脚本）。
 
 ## 2024 Q3
