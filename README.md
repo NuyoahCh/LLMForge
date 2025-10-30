@@ -25,6 +25,7 @@ LLMForge
 ├── 04Agent/                    # Agent 架构与功能调用协议解析
 ├── 05FineTuning/               # 大模型微调的策略与实践
 ├── 06Project/                  # 行业项目案例与代码示例
+├── docs/                       # 学习路线、路线图、架构与协作手册
 ├── docs/                       # 学习路线、路线图与外部资源
 ├── CONTRIBUTING.md             # 贡献指南
 ├── CODE_OF_CONDUCT.md          # 社区行为准则
@@ -74,6 +75,7 @@ LLMForge
    4. 最后结合 `06Project/` 的示例项目进行端到端落地。
 3. **外部资料与延伸阅读**
    - 语雀文档同步更新：<https://www.yuque.com/codereview1024/bcn20o>
+   - 架构蓝图与协作指南：[docs/architecture-overview.md](docs/architecture-overview.md)、[docs/contributor-handbook.md](docs/contributor-handbook.md)
    - 更多课程、官方文档与评估工具参考：[docs/resources.md](docs/resources.md)
 
 ## 🧭 学习地图
@@ -89,6 +91,8 @@ LLMForge
 
 - [docs/learning-path.md](docs/learning-path.md)：按照基础、进阶、实战四个阶段规划学习路线。
 - [docs/roadmap.md](docs/roadmap.md)：了解仓库未来的发展方向与可认领任务。
+- [docs/architecture-overview.md](docs/architecture-overview.md)：掌握大模型应用的端到端架构。
+- [docs/contributor-handbook.md](docs/contributor-handbook.md)：了解贡献流程、写作规范与评审建议。
 - [docs/resources.md](docs/resources.md)：快速跳转至官方文档、课程与工具资源。
 
 ## 🤝 参与贡献
@@ -110,6 +114,7 @@ LLMForge
 ## 🌱 社区文化
 
 我们遵循 [Contributor Covenant](CODE_OF_CONDUCT.md) 行为准则，倡导开放、友善、包容的协作氛围。如遇到任何问题，请通过 Issue 或邮箱联系维护者。
+关于漏洞披露与支持流程，请参阅 [SECURITY.md](SECURITY.md) 与 [SUPPORT.md](SUPPORT.md)。
 
 ## 📄 版权与许可
 
