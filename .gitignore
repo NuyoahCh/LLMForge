@@ -1,0 +1,32 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# Node.js
+node_modules/
+dist/
+.vite/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Java / Maven
+.target/
+target/
+
+# JavaScript tooling
+coverage/
+
+# IDE / Editor directories
+.idea/
+.vscode/
+*.iml
+
+# Misc
+.env
+.env.local
+
