@@ -2,6 +2,10 @@
 
 > 大模型时代的全栈学习与实战仓库
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Contributions welcome](https://img.shields.io/badge/Contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Docs](https://img.shields.io/badge/Docs-hub-orange.svg)](docs/README.md)
+
 LLMForge 是一个面向中文开发者的综合性大模型应用开发资料库，覆盖从基础概念、主流框架、检索增强生成（RAG）、智能体（Agent）、微调（Fine-tuning）到行业级实战项目的完整学习路径。仓库旨在帮助学习者快速了解大模型生态，搭建端到端的应用原型，并通过实战项目沉淀可复用的工程经验。
 
 ## ✨ 核心特点
@@ -15,13 +19,16 @@ LLMForge 是一个面向中文开发者的综合性大模型应用开发资料�
 
 ```text
 LLMForge
-├── 01Base/                     # 大模型基础知识与提示词工程
+├── 01Base/                     # 大模型基础知识与提示词工程（含目录 README）
 ├── 02Framework/                # 主流大模型应用框架示例与对比
 ├── 03RAG/                      # 检索增强生成的原理、流程与评估
 ├── 04Agent/                    # Agent 架构与功能调用协议解析
 ├── 05FineTuning/               # 大模型微调的策略与实践
 ├── 06Project/                  # 行业项目案例与代码示例
-└── README.md                   # 项目总览（当前文件）
+├── docs/                       # 学习路线、路线图、架构与协作手册
+├── CONTRIBUTING.md             # 贡献指南
+├── CODE_OF_CONDUCT.md          # 社区行为准则
+└── LICENSE                     # MIT 开源许可证
 ```
 
 ### 01Base — 大模型基础知识库
@@ -65,9 +72,10 @@ LLMForge
    2. 在 `02Framework/` 中选择一套熟悉的框架进行实践；
    3. 深入 `03RAG/`、`04Agent/`、`05FineTuning/` 等专题；
    4. 最后结合 `06Project/` 的示例项目进行端到端落地。
-3. **外部资料**
+3. **外部资料与延伸阅读**
    - 语雀文档同步更新：<https://www.yuque.com/codereview1024/bcn20o>
-   - 配套视频课程与分享将定期在语雀页面中维护。
+   - 架构蓝图与协作指南：[docs/architecture-overview.md](docs/architecture-overview.md)、[docs/contributor-handbook.md](docs/contributor-handbook.md)
+   - 更多课程、官方文档与评估工具参考：[docs/resources.md](docs/resources.md)
 
 ## 🧭 学习地图
 
@@ -77,6 +85,14 @@ LLMForge
 | 进阶 | 熟悉主流框架的使用方式与特性差异 | `02Framework/` 下的 LangChain、LangChain4j、Spring AI 等资料 |
 | 强化 | 构建更可靠的大模型应用能力 | `03RAG/`、`04Agent/`、`05FineTuning/` |
 | 实战 | 面向业务场景的端到端落地 | `06Project/` 中的行业案例与配套代码 |
+
+## 📚 文档导航
+
+- [docs/learning-path.md](docs/learning-path.md)：按照基础、进阶、实战四个阶段规划学习路线。
+- [docs/roadmap.md](docs/roadmap.md)：了解仓库未来的发展方向与可认领任务。
+- [docs/architecture-overview.md](docs/architecture-overview.md)：掌握大模型应用的端到端架构。
+- [docs/contributor-handbook.md](docs/contributor-handbook.md)：了解贡献流程、写作规范与评审建议。
+- [docs/resources.md](docs/resources.md)：快速跳转至官方文档、课程与工具资源。
 
 ## 🤝 参与贡献
 
@@ -91,11 +107,17 @@ LLMForge
    - Fork 仓库并创建新分支；
    - 提交前请确保文档格式统一、代码通过基本校验；
    - 在 PR 中清晰描述改动内容与测试情况。
-4. **协同更新**：如需同步语雀或其他平台的内容，请在文档中注明来源与更新时间。
+
+详细流程与写作规范请参阅 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## 🌱 社区文化
+
+我们遵循 [Contributor Covenant](CODE_OF_CONDUCT.md) 行为准则，倡导开放、友善、包容的协作氛围。如遇到任何问题，请通过 Issue 或邮箱联系维护者。
+关于漏洞披露与支持流程，请参阅 [SECURITY.md](SECURITY.md) 与 [SUPPORT.md](SUPPORT.md)。
 
 ## 📄 版权与许可
 
-本仓库目前尚未指定开源许可证。若计划将资料或代码用于商业或二次发布，请先与仓库维护者沟通并确认授权。未来计划引入适合的开源许可协议（如 MIT、Apache-2.0 等），欢迎就许可选择提出建议。
+LLMForge 采用 [MIT License](LICENSE) 开源协议，欢迎在遵守许可证的前提下使用与二次创作。若引用了外部资料，请在文档中注明来源与更新时间。
 
 ## 🙏 致谢
 
